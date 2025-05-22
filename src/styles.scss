@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "fonts";
+@import "margins";
 
 :root {
   --dark-color: #000000;
@@ -17,6 +18,7 @@ body {
   font-family: 'JetBrains Mono', sans-serif;
   background-color: var(--dark-color);
   color: var(--light-color);
+  background-image: url(/assets/images/background.jpg);
 }
 
 .skill-tag {
@@ -57,6 +59,12 @@ body {
     z-index: -1;
     border-radius: 4px;
   }
+}
+
+.h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
 }
 
 .h6 {
